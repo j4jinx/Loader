@@ -1,0 +1,62 @@
+{
+  "name": "@j4jinxx/loader",
+  "version": "1.0.0",
+  "description": "Minimal Loader/Spinner React Component",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev --port 9009",
+    "build": "NODE_ENV=production rollup -c",
+    "publish": "npm run build && npm publish --access public",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [
+    "react",
+    "j4jinx",
+    "j4jinxx",
+    "amol",
+    "meshram",
+    "component",
+    "loader",
+    "spinner",
+    "overlay",
+    "backdrop"
+  ],
+  "author": {
+    "name": "Amol Meshram",
+    "email": "amol.meshram@gmail.com",
+    "url": "https://github.com/j4jinx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j4jinx/Loader.git"
+  },
+  "license": "GPL",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@storybook/addon-actions": "^8.0.5",
+    "@storybook/addon-essentials": "^8.0.5",
+    "@storybook/addon-links": "^8.0.5",
+    "@storybook/react-vite": "^8.0.5",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.79.1",
+    "storybook": "^8.0.5"
+  },
+  "dependencies": {
+    "@j4jinxx/overlay": "^1.1.1"
+  }
+}

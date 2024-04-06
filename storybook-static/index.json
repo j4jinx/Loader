@@ -1,0 +1,1 @@
+{"v":4,"entries":{"loader--docs":{"id":"loader--docs","title":"Loader","name":"Docs","importPath":"./.storybook/Loader.stories.jsx","type":"docs","tags":["docs","autodocs"],"storiesImports":[]},"loader--demo":{"type":"story","id":"loader--demo","name":"Demo","title":"Loader","importPath":"./.storybook/Loader.stories.jsx","tags":["story"]}}}
